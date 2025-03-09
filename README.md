@@ -4,7 +4,18 @@
 
 Python 3.x
 
-Required Libraries: numpy, pandas, sklearn, matplotlib, seaborn
+Required libraries:
++ Pandas for data manipulation
+
++ NumPy for numerical operations
+
++ Scipy for statistical functions
+
++ TensorFlow for building the autoencoder
+
++ sklearn for clustering and other machine learning tasks
+
++ matplotlib and seaborn for data visualization
 
 Download the dataset from https://drive.google.com/file/d/1KuPtcQwsEIVZEvanAgGdFleg89EyZnF2/view?usp=drive_link
 
@@ -15,15 +26,16 @@ Clone the repository: git clone [repository URL]
 
 Navigate to the project directory: cd [project directory]
 
-Install the required libraries: pip install -r requirements.txt
+Install the required libraries: pip install pandas numpy scipy tensorflow scikit-learn matplotlib seaborn
+
 
 
 ## Running the Code:
 
 To execute the segmentation, run the following command:
-python gmm_segmentation.py
+python Customer segmentation.py
 
-Ensure that the dataset is correctly placed in the specified directory or provide the correct file path in the code.
+Make sure to provide the correct file path to the dataset in the code.
 
 
 ## Reproducing Results:
