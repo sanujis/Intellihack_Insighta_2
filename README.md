@@ -2,28 +2,46 @@
 
 ## Prerequisites:
 
-Python 3.x
+Python 3.x (Make sure Python 3 is installed on your system)
 
-Required Libraries: numpy, pandas, sklearn, matplotlib, seaborn
+Required libraries:
++ Pandas for data manipulation
+
++ NumPy for numerical operations
+
++ Scipy for statistical functions
+
++ TensorFlow for building the autoencoder
+
++ sklearn for clustering and other machine learning tasks
+
++ matplotlib and seaborn for data visualization
 
 Download the dataset from https://drive.google.com/file/d/1KuPtcQwsEIVZEvanAgGdFleg89EyZnF2/view?usp=drive_link
+
+Download the Customer segmentation.py file from https://github.com/sanujis/Intellihack_Insighta_2.git
 
 
 ## Setup:
 
-Clone the repository: git clone [repository URL]
+Open the Customer segmentation.py file in your Python IDE or text editor.
 
-Navigate to the project directory: cd [project directory]
+Install the required libraries by running the following command in your terminal/command prompt:
 
-Install the required libraries: pip install -r requirements.txt
+pip install pandas numpy scipy tensorflow scikit-learn matplotlib seaborn
+
 
 
 ## Running the Code:
 
 To execute the segmentation, run the following command:
-python gmm_segmentation.py
 
-Ensure that the dataset is correctly placed in the specified directory or provide the correct file path in the code.
+python Customer segmentation.py
+
+
+Specify the correct path for your dataset. Ensure that the dataset_path in the script points to the correct location of your dataset file:
+
+dataset_path = "/path/to/your/dataset/customer_behavior_analytcis.csv"
 
 
 ## Reproducing Results:
