@@ -47,3 +47,6 @@ dataset_path = "/path/to/your/dataset/customer_behavior_analytcis.csv"
 ## Reproducing Results:
 
 After running the script, the output will include the Silhouette Score and Davies-Bouldin Index, along with the segmented results displayed in a visual format.
+
+If you prefer to view the Customer segmentation notebook without running the Python script, you can open it directly on GitHub or use an online tool such as Google Colab.
+Open the notebook and you can view all the code and outputs
