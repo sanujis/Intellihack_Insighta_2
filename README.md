@@ -19,7 +19,7 @@ Required libraries:
 
 Download the dataset from https://drive.google.com/file/d/1KuPtcQwsEIVZEvanAgGdFleg89EyZnF2/view?usp=drive_link
 
-Download the Customer segmentation.py file from 
+Download the Customer segmentation.py file from https://github.com/sanujis/Intellihack_Insighta_2.git
 
 
 ## Setup:
